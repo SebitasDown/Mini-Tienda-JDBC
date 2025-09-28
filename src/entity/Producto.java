@@ -8,7 +8,7 @@ public class Producto {
     private BigDecimal precio;
     private int stock;
 
-    public Producto(int id_producto, String nombre, BigDecimal precio, int stock) {
+    public Producto() {
         this.id_producto = id_producto;
         this.nombre = nombre;
         this.precio = precio;
